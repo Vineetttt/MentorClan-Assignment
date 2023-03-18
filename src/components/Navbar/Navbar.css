@@ -1,0 +1,56 @@
+﻿#header{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: transparent;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.6); 
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;  
+}
+#navbar li {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: 0.3s ease; 
+}
+#navbar li:hover,
+#navbar li.active{
+    color: rgb(43, 195, 252);   
+}
+.navLink{
+    text-decoration: none;
+}
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+.cart{
+    margin-top: 20%;
+    font-size: 1.5rem;
+}
+.logo{
+    height: 3rem;
+    cursor: pointer;
+}
+.navButton{
+    background:linear-gradient(rgb(43, 195, 252) 0%, rgb(1, 126, 172) 100%);
+    color: white;
+    padding: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}

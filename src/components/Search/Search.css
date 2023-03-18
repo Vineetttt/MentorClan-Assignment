@@ -1,0 +1,8 @@
+﻿.inputBox{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.inputBox > input{
+    height: 30px;
+    width: 20%;
+}
